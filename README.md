@@ -1,0 +1,2 @@
+# ismek_kodluyoruz_patika_frontend_bitirme_odevi
+Bu frontent developer eğitimindeki bitirme ödevimdir.
