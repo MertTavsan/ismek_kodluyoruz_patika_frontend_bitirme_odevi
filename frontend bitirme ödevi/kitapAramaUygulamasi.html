@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  	#basaDonButton{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+.slayt {
+     position: relative;
+  }
+.slayt img{
+	margin-left:150px;
+	width: 80%;
+}
+  #kontrol {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+  }
+
+  #kontrol a {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+
+
+
+  <div class="slayt"><img src="https://fethica.github.io/BookSearch-React/img/bgheader.jpg" /></div>
+
+  
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+   
+              
+			</div>
+<div class="col-md-4">
+   
+              <input type="text" id="arama">
+			</div>
+		
+		
+		<div class="col-md-2">
+			<input type="button" id="btn" value="Ara" class="btn btn-success" name="" >
+		
+		</div>
+		
+		<div class="container">
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="bModelAdsoyad">Kitap Adı</h4>
+        </div>
+        <div class="modal-body">
+          <img id="bModelFoto" src=""><br><br>
+          <p> <b id="bModelDescription">Description...</b></p>
+          <p> <b id="bModelDate">Published date.</b></p>
+          <p> <b id="bModelPublisher">Publisher</b></p>
+          <p> <b id="bModelPages">0 pages</b></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+		 </div>
+		<div class="container" id="tbl">
+			<br>
+		
+
+  <!-- Modal -->
+  	
+		</div>
+   
+	</div>
+</div>
+<input type="button" id="basaDonButton" value="başa dön" >
+<script type="text/javascript" src="jquery-3.4.1.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="kitapAPI.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   
+</body>
+</html>
