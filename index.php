@@ -11,6 +11,3 @@ echo "ana sayfa";
 
 </body>
 </html>
-<!--
-<?php header('location: frontend bitirme ödevi/kitapAramaUygulamasi.html'); ?>
--->
